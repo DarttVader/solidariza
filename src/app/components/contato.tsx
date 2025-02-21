@@ -1,31 +1,31 @@
-"use client";
-
+// app/components/contato.tsx
 import React from 'react';
 import Link from 'next/link';
 
-const Home: React.FC = () => {
+const Contato: React.FC = () => {
   return (
     <>
       <header>
         <nav>
           <ul>
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/components/page">Home</Link>
             </li>
             <li>
-              <Link href="/pagamento">Pagamento</Link>
+              <Link href="/components/pagamento">Pagamento</Link>
             </li>
             <li>
-              <Link href="/sobre">Sobre Nós</Link>
+              <Link href="/components/sobre">Sobre Nós</Link>
             </li>
             <li>
-              <Link href="/contato">Contato</Link>
+              <Link href="/components/contato">Contato</Link>
             </li>
           </ul>
         </nav>
       </header>
       <main>
-        <h1>Bem-vindo à página inicial!</h1>
+        <h1>Página de Contato</h1>
+        <p>Esta é a página de contato.</p>
       </main>
       <style jsx>{`
         header {
@@ -53,4 +53,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Contato;
