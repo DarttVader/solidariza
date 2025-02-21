@@ -1,4 +1,5 @@
-// app/components/page.tsx
+"use client";
+
 import React from 'react';
 import Link from 'next/link';
 
@@ -12,7 +13,7 @@ const Home: React.FC = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/components/contato">Contato</Link>
+              <Link href="/contato">Contato</Link>
             </li>
           </ul>
         </nav>
