@@ -19,13 +19,13 @@ const Home: React.FC = () => {
               <Link href="/sobre">Sobre Nós</Link>
             </li>
             <li>
-              <Link href="/contato">Contato</Link>
+              <Link href="/conponets/contato">Contato</Link>
             </li>
           </ul>
         </nav>
       </header>
       <main>
-        <h1>Bem-vindo à página inicial!</h1>
+        <h1>Bem-vindo à página inicial top!</h1>
       </main>
       <style jsx>{`
         header {
